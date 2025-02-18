@@ -44,20 +44,6 @@ def movimentar_mouse_no_teams():
 
         # Aguarda 3 minutos antes de repetir
         time.sleep(360)
-        
-
-if __name__ == "__main__":
-    print("🔵 Movimentação do mouse iniciada... O Teams permanecerá online e a tela não bloqueará!")
-    movimentar_mouse_no_teams()
-        else:
-            print("⚠️ Microsoft Teams não encontrado. O mouse não foi movido.")
-
-        # Simula o pressionamento de uma tecla para evitar bloqueio
-        evitar_bloqueio_tela()
-
-        # Aguarda 2 minutos antes de repetir
-        time.sleep(60)
-
 
 if __name__ == "__main__":
     print("🔵 Movimentação do mouse iniciada... O Teams permanecerá online e a tela não bloqueará!")

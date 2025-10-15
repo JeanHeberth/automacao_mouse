@@ -1,5 +1,13 @@
-pyautogui
-psutil
-pygetwindow; sys_platform == 'win32'
-pyobjc-framework-Quartz; sys_platform == 'darwin'
-pyobjc-framework-AppKit; sys_platform == 'darwin'
+# Bibliotecas principais
+pyautogui==0.9.54
+psutil==6.0.0
+
+# Windows
+pygetwindow==0.0.9; sys_platform == 'win32'
+
+# macOS
+#pyobjc-framework-Quartz==10.1; sys_platform == 'darwin'
+#pyobjc-framework-AppKit==10.1; sys_platform == 'darwin'
+
+# Opcional - apenas se quiser criar executável
+# pyinstaller==6.11.0
